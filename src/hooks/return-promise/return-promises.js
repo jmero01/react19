@@ -1,6 +1,6 @@
 import { HooksReturnPromise } from "./before";
 import { ReturnPromiseWithUse } from "./new";
-import "./return-promise.css";
+import "./return-promises.css";
 
 export const ReturnPromise = () => {
   return (
