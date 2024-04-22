@@ -4,6 +4,7 @@ import ComponentContainer from "./components/containers/container-hooks";
 import { QuoteData } from "./hooks/fetch-data/before";
 import { OneHookUse } from "./hooks/fetch-data/new";
 import { ReturnPromise } from "./hooks/return-promise/return-promises";
+import { Context } from "./hooks/context/context";
 
 function App() {
   return (
@@ -21,6 +22,11 @@ function App() {
         <section>
           <ComponentContainer title="Return promise">
             <ReturnPromise />
+          </ComponentContainer>
+        </section>
+        <section>
+          <ComponentContainer title="Use Context">
+            <Context />
           </ComponentContainer>
         </section>
       </main>
