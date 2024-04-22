@@ -1,4 +1,5 @@
 import { Suspense, use } from "react";
+import "./fetch-quotes.css";
 
 const fetchDataQuotes = async () => {
   const res = await fetch("https://api.quotable.io/random");
@@ -9,11 +10,11 @@ const NewQuotableItem = () => {
   const quote = use(fetchDataQuotes());
   return (
     <>
-      <div>
-        <h4>New hook: use ( )</h4>
-        <div>
+      <div className="quote-container">
+        <h4 className="quote-title">New hook: use ( )</h4>
+        <div className="quote-card">
           <cite>{quote.content}</cite>
-          <address>Author: {quote.author}</address>
+          <address className="quote-author">Author: {quote.author}</address>
           <p>Tags: {quote.tags}</p>
         </div>
       </div>
