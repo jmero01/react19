@@ -1,0 +1,34 @@
+/* Define styles for the container of the components */
+.return-promise {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+    column-gap: 2rem;
+    margin-top: 1rem;
+    justify-content: space-evenly; /* Align components with space between them */
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  /* Add margin to separate the components */
+  .RevelEmojiHooks,
+  .HooksReturnPromise {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    background-color:  #0ef60e;;
+    color: #282c34;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  /* Style the paragraph */
+  p {
+    font-size: 1.5rem;
+  }
+  
