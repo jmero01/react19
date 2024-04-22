@@ -1,13 +1,14 @@
 import { useState, useEffect } from "react";
+import "./fetch-quotes.css";
 
 // UI
 const QuoteItem = ({ quote }) => {
   return (
-    <div>
-      <h4>Current hooks: useEffect and useState</h4>
-      <div>
+    <div className="quote-container">
+      <h4 className="quote-title">Current hooks: useEffect and useState</h4>
+      <div className="quote-card">
         <cite>{quote.content}</cite>
-        <address>Author: {quote.author}</address>
+        <address className="quote-author">Author: {quote.author}</address>
         <p>Tags: {quote.tags}</p>
       </div>
     </div>
