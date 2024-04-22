@@ -1,0 +1,52 @@
+/* components */
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 1rem;
+    margin: 1rem;
+    }
+    
+    /* light */
+    .light-card {
+        background-color: #ffffff;
+        color: #282c34;
+        max-width: 90vh;
+        border: 0.125rem solid #61dafb;
+        border-radius: 0rem 1rem 0rem 1.5rem;
+        text-align: left;
+      }
+      
+      .light-text {
+        color: #282c34;
+        margin: 1rem;
+      }
+      
+      .light-button{
+        background-color:  #0ef60e;;
+        color:black;
+        margin: 1rem;
+      }
+    
+      /* dark */
+      .dark-card {
+        background-color: #282c34;
+        color: #ffffff;
+        max-width: 90vh;
+        border: 0.125rem solid #61dafb;
+        border-radius: 0rem 1rem 0rem 1.5rem;
+        text-align: left;
+      }
+      
+      .dark-text {
+        color: #ffffff;
+        margin: 1rem;
+    
+      }
+    
+      .dark-button{
+        background-color: #fcf8f8;
+        color: #282c34;
+        margin: 1rem;
+    
+      }
+      
