@@ -6,7 +6,7 @@
     column-gap: 2rem;
     margin-top: 1rem;
     justify-content: space-evenly; /* Align components with space between them */
-    background-color: #282c34;
+    background-color: white;
     padding: 1rem;
   }
   
@@ -18,17 +18,17 @@
   
   /* Style the button */
   button {
-    padding: 10px 20px;
+    padding: 1rem 1.5rem;
     font-size: 1rem;
     background-color:  #0ef60e;;
-    color: black;
+    color: #282c34;
     border: none;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     cursor: pointer;
   }
   
   /* Style the paragraph */
   p {
-    font-size: 18px;
+    font-size: 1.5rem;
   }
   
